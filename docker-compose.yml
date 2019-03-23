@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db:
+    image: mongo
+    volumes:
+      - ./db:/data/db
+  api:
+    build: ./api
+    env_file: ./api/.env
+    ports:
+      - '3002:3002'

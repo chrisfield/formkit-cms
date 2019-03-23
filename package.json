@@ -1,0 +1,13 @@
+{
+  "name": "formkit-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "cd api && npm i && cd ..",
+    "start": "docker-compose -f docker-compose.yml up --build" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
